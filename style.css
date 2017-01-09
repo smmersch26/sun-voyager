@@ -1,0 +1,62 @@
+#main{
+	background-image:url("./Sun Voyager_trip.jpg");
+	background-position:center;
+	background-size:100%;
+	background-size:cover;
+}
+
+#main, #videos, #contact{
+	text-align:center;
+}
+
+#tunes{
+	padding-top:750px;
+	padding-bottom:200px;
+}
+
+#shows{
+	background-color:#990404;
+	padding-bottom:60px;
+}
+
+#videos{
+	background-color:#d3c52a;
+	padding-bottom:60px;
+}
+
+#contact{
+	background-color:#3f3f3f;
+	padding-bottom:60px;
+	margin-bottom:0px;
+	color:white;
+}
+
+#social-icons{
+	font-size:36px;
+}
+
+#social-icons a{
+	text-decoration:none;
+	color:black;
+}
+
+.icon-social-facebook, .icon-social-twitter, .icon-social-instagram{
+	padding-right:10px;
+}
+
+#tunes iframe{
+	padding-bottom:10px;
+}
+
+h1{
+	margin-top:0;
+	padding-top:40px;
+	text-align:center;
+	font-family: 'Monoton', cursive;
+	font-size:48px;
+}
+
+p{
+	font-family:"Reem Kufi", sans-serif;
+	font-size:36px;
+}
