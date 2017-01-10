@@ -1,35 +1,25 @@
-$(document).ready(function(){
-	$('#tunes').css('opacity', 0);
+function onScrollInit( items, trigger ) {
+  items.each( function() {
+    var osElement = $(this),
+        osAnimationClass = osElement.attr('data-os-animation'),
+        osAnimationDelay = osElement.attr('data-os-animation-delay');
+      
+        osElement.css({
+          '-webkit-animation-delay':  osAnimationDelay,
+          '-moz-animation-delay':     osAnimationDelay,
+          'animation-delay':          osAnimationDelay
+        });
 
-	$("#tunes").waypoint(function() {
-	    $('#tunes').addClass('fadeInLeft');
-	  }
-	}, { offset: '50%'});
-});
+        var osTrigger = ( trigger ) ? trigger : osElement;
+        
+        osTrigger.waypoint(function() {
+          osElement.addClass('animated').addClass(osAnimationClass);
+          },{
+              triggerOnce: true,
+              offset: '80%'
+        });
+  });
+}
 
-$(document).ready(function(){
-	$('#shows').css('opacity', 0);
-
-	$("#shows").waypoint(function() {
-	    $('#shows').addClass('fadeInLeft');
-	  }
-	}, { offset: '50%'});
-});
-
-$(document).ready(function(){
-	$('#videos').css('opacity', 0);
-
-	$("#videos").waypoint(function() {
-	    $('#videos').addClass('fadeInLeft');
-	  }
-	}, { offset: '50%'});
-});
-
-$(document).ready(function(){
-	$('#social-icons').css('opacity', 0);
-
-	$("#social-icons").waypoint(function() {
-	    $('#social-icons').addClass('fadeInLeft');
-	  }
-	}, { offset: '50%'});
-});
+ onScrollInit( $('.os-animation') );
+ onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );

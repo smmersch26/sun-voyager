@@ -1,30 +1,30 @@
-#main{
+#main-section{
 	background-image:url("./Sun Voyager_trip.jpg");
 	background-position:center;
 	background-size:100%;
 	background-size:cover;
 }
 
-#main, #videos, #contact{
+#main-section, #videos-section, #contact-section{
 	text-align:center;
 }
 
-#tunes{
+#tunes-section{
 	padding-top:750px;
 	padding-bottom:200px;
 }
 
-#shows{
+#shows-section{
 	background-color:#990404;
 	padding-bottom:60px;
 }
 
-#videos{
+#videos-section{
 	background-color:#d3c52a;
 	padding-bottom:60px;
 }
 
-#contact{
+#contact-section{
 	background-color:#3f3f3f;
 	padding-bottom:60px;
 	margin-bottom:0px;
@@ -44,8 +44,16 @@
 	padding-right:10px;
 }
 
-#tunes iframe{
+#tunes-section iframe{
 	padding-bottom:10px;
+}
+
+.os-animation{
+  opacity: 0;
+}
+
+.os-animation.animated{
+    opacity: 1;
 }
 
 h1{
