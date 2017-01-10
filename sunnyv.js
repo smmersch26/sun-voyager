@@ -20,6 +20,13 @@ function onScrollInit( items, trigger ) {
         });
   });
 }
-
+if ($(window).width() < 767){
+	$("#tunes").removeClass("os-animation");
+	$("#shows").removeClass("os-animation");
+	$("#videos").removeClass("os-animation");
+	$("#contact").removeClass("os-animation");
+}
+else{
  onScrollInit( $('.os-animation') );
  onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+}
