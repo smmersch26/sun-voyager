@@ -107,5 +107,6 @@ nav iframe{
 
 	#main-section{
 		padding-top:20px;
+		background-attachment:scroll;
 	}
 }
