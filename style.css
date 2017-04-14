@@ -1,7 +1,6 @@
 #main-section{
 	background-image:url("./Sun Voyager_trip.jpg");
 	background-position:center;
-	background-size:100%;
 	background-size:cover;
 	overflow-y:hidden;
 	padding-top:100px;
@@ -107,5 +106,6 @@ nav iframe{
 
 	#main-section{
 		padding-top:40px;
+		background-attachment:scroll;
 	}
 }
