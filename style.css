@@ -3,37 +3,24 @@
 	background-position:center;
 	background-size:100%;
 	background-size:cover;
-}
-
-#main-section, #videos-section, #contact-section{
+	overflow-y:hidden;
+	padding-top:100px;
+	padding-bottom:850px;
 	text-align:center;
 }
 
-#tunes-section{
-	padding-top:750px;
-	padding-bottom:200px;
+a{
+	cursor:pointer;
 }
 
-#shows-section{
-	background-color:#990404;
-}
-
-#videos-section{
-	background-color:#d3c52a;
-}
-
-#contact-section{
-	background-color:#3f3f3f;
-	margin-bottom:0px;
-	color:white;
-}
-
-#shows-section, #videos-section, #contact-section{
-	padding-bottom:60px;
+nav iframe{
+	display:block;
+	text-align:left;
+	padding-left:150px;
 }
 
 #social-icons, p{
-	font-size:36px;
+	font-size:54px;
 }
 
 #social-icons a{
@@ -41,12 +28,23 @@
 	color:black;
 }
 
-.icon-social-facebook, .icon-social-twitter, .icon-social-instagram{
-	padding-right:10px;
+#shows-link{
+	font-size:24px;
+	font-family:"Bangers";
+	display:block;
+	text-align:right;
+	margin-right:150px;
+	color:#ebdedb;
+	margin-bottom:50px;
+	position:right;
 }
 
-#tunes-section iframe{
-	padding-bottom:10px;
+#social-icons a:hover, #shows-link:hover{
+	color:yellow;
+}
+
+.icon-social-facebook, .icon-social-twitter, .icon-social-youtube, .icon-social-instagram{
+	padding-right:10px;
 }
 
 .os-animation{
@@ -62,23 +60,52 @@
 	font-weight:bold;
 }
 
-.bit-events th, .bit-events td{
-	width:auto;
-}
-
 #bandsintown-container{
+	overflow-y:auto;
+	background-image:url("./Sun Voyager_trip no name.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-size:2000px;
+	background-color:#b12728;
 	margin-left:100px;
 	margin-right:100px;
+	padding-top:25px;
+	padding-right:30px;
+	padding-left:30px;
+	padding-bottom:60px;
+	border-color:#fede00;
+	border-style:solid;
+	border-width:6px;
+	border-radius:24px;
 }
-
-h1{
-	margin-top:0;
-	padding-top:40px;
+#youtube-video{
 	text-align:center;
-	font-family: 'Monoton', cursive;
-	font-size:48px;
 }
 
 .bit-header-links, .bit-share-text, .bit-date, .bit-venue, .bit-location, .bit-tickets, p{
 	font-family:"Reem Kufi", sans-serif;
+	font-size:22px;
+	color:#ebdedb;
+}
+
+@media handheld, only screen and (max-width: 767px){
+	#bandsintown-container{
+		margin-left:10px;
+		margin-right:10px;
+	}
+
+	.bit-header-links, .bit-share-text, .bit-date, .bit-venue, .bit-location, .bit-tickets, p{
+	font-size:16px;
+	}
+
+	#shows-link{
+		position:center;
+		text-align:center;
+		margin-right:0px;
+		margin-bottom:80px;
+	}
+
+	#main-section{
+		padding-top:40px;
+	}
 }
