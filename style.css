@@ -107,6 +107,10 @@ nav iframe{
 
 	#main-section{
 		padding-top:20px;
-		background-attachment:scroll;
+		background-attachment:initial;
+		background-position-x:center;
+		background-position-y:top;
+		background-origin:initial;
+		background-clip:initial;
 	}
 }
