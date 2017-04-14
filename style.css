@@ -1,9 +1,10 @@
 #main-section{
 	background-image:url("./Sun Voyager_trip.jpg");
-	background-position:center;
+	background-position:top;
 	background-size:cover;
+	background-attachment:fixed;
 	overflow-y:hidden;
-	padding-top:100px;
+	padding-top:150px;
 	padding-bottom:850px;
 	text-align:center;
 }
@@ -101,11 +102,10 @@ nav iframe{
 		position:center;
 		text-align:center;
 		margin-right:0px;
-		margin-bottom:80px;
+		margin-bottom:100px;
 	}
 
 	#main-section{
-		padding-top:40px;
-		background-attachment:scroll;
+		padding-top:20px;
 	}
 }
