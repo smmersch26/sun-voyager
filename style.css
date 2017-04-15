@@ -112,5 +112,6 @@ nav iframe{
 		background-position-y:top;
 		background-origin:initial;
 		background-clip:initial;
+		background-size:cover;
 	}
 }
