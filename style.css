@@ -82,10 +82,26 @@ nav iframe{
 	text-align:center;
 }
 
-.bit-header-links, .bit-share-text, .bit-date, .bit-venue, .bit-location, .bit-tickets, p{
+.bit-nav-bar, .bit-share-text, .bit-date, .bit-venue, .bit-location, .bit-button, .bit-tickets, p{
 	font-family:"Reem Kufi", sans-serif;
 	font-size:22px;
 	color:#ebdedb;
+}
+
+.bit-date, .bit-venue, .bit-location{
+	position:absolute;
+}
+
+.bit-date{
+	float:left;
+}
+
+.bit-venue{
+	left: 25%;
+}
+
+.bit-location{
+	left:50%;
 }
 
 @media handheld, only screen and (max-width: 900px){
@@ -94,7 +110,7 @@ nav iframe{
 		margin-right:10px;
 	}
 
-	.bit-header-links, .bit-share-text, .bit-date, .bit-venue, .bit-location, .bit-tickets, p{
+	.bit-nav-bar, .bit-share-text, .bit-date, .bit-venue, .bit-location, .bit-tickets, p{
 	font-size:16px;
 	}
 
@@ -114,5 +130,12 @@ nav iframe{
 		background-origin:initial;
 		background-clip:initial;
 		background-size:cover;
+	}
+
+	.bit-details{
+		height:20px;
+	}
+	.bit-button{
+		display:none;
 	}
 }
