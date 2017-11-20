@@ -60,6 +60,7 @@ nav iframe{
 	font-weight:bold;
 }
 
+
 #bandsintown-container{
 	overflow-y:auto;
 	background-image:url("./Sun Voyager_trip no name.jpg");
@@ -78,6 +79,7 @@ nav iframe{
 	border-width:6px;
 	border-radius:24px;
 }
+
 #youtube-video{
 	text-align:center;
 }
@@ -88,30 +90,11 @@ nav iframe{
 	color:#ebdedb;
 }
 
-.bit-date, .bit-venue, .bit-location{
-	position:absolute;
-}
-
-.bit-date{
-	float:left;
-}
-
-.bit-venue{
-	left: 25%;
-}
-
-.bit-location{
-	left:50%;
-}
 
 @media handheld, only screen and (max-width: 900px){
 	#bandsintown-container{
 		margin-left:10px;
 		margin-right:10px;
-	}
-
-	.bit-nav-bar, .bit-share-text, .bit-date, .bit-venue, .bit-location, .bit-tickets, p{
-	font-size:16px;
 	}
 
 	#shows-link{
@@ -130,12 +113,5 @@ nav iframe{
 		background-origin:initial;
 		background-clip:initial;
 		background-size:cover;
-	}
-
-	.bit-details{
-		height:20px;
-	}
-	.bit-button{
-		display:none;
 	}
 }
