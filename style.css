@@ -1,6 +1,6 @@
 #main-section{
-	background-image:url("./Sun Voyager_trip.jpg");
-	background-position:top;
+	background-image:url("./Sun Voyager_Seismic Vibes.jpg");
+	background-position:50% 25%;
 	background-size:cover;
 	background-attachment:fixed;
 	overflow-y:hidden;
@@ -25,7 +25,7 @@ nav iframe{
 
 #social-icons a{
 	text-decoration:none;
-	color:black;
+	color:#ebdedb;
 }
 
 #shows-link{
